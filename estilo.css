@@ -15,9 +15,8 @@ header {
     color: white;
 }
 
-nav ol {
+nav ul {
     padding-top: 10px;
-    display: inline;
     margin-right: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -30,7 +29,7 @@ nav ol {
     background-color: #8ac247;
 }
 
-nav ol li:hover {
+nav ul li:hover {
     background-color: white;
     font-size: 20px;
     border-style: solid;
@@ -57,7 +56,7 @@ body {
 }
 
 #sobre {
-    border-style: solid;
+    border-style: none;
 }
 
 main {
@@ -106,8 +105,7 @@ img {
     text-align: center;
     transition: 0.3s;
     border-radius: 50%;
-    display: flex;
-
+    display: inline;
 }
 
 img:hover {
@@ -124,4 +122,7 @@ img:hover {
     width: 200px;
     text-align: center;
     border-left: 3px solid green;
+}
+ul {
+    
 }
