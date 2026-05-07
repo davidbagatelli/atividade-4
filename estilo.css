@@ -71,7 +71,7 @@ section {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
+
 }
 
 .btn {
@@ -104,7 +104,6 @@ img {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
     transition: 0.3s;
     border-radius: 50%;
     display: flex;
@@ -113,7 +112,6 @@ img {
 
 img:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 2);
 }
 
 .grid {
