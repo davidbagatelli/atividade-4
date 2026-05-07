@@ -1,0 +1,129 @@
+p {
+    text-align: center;
+    border-style: none;
+    width: 90%;
+    color: black;
+}
+
+header {
+    text-align: center;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: white;
+}
+
+nav ol {
+    padding-top: 10px;
+    display: inline;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#topo {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #8ac247;
+}
+
+nav ol li:hover {
+    background-color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-bottom-color: aliceblue;
+    font-weight: 900;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+
+}
+
+#info {
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 20px;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, green, red);
+}
+
+#sobre {
+    border-style: solid;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: darkred;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 1);
+    transition: 0.3s;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 2);
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    border-left: 3px solid green;
+}
